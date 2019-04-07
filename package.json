@@ -1,0 +1,36 @@
+{
+  "name": "aquila",
+  "description": "A webcrawler, by Alcha for Alcha.",
+  "version": "0.0.1",
+  "displayName": "Aquila",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alcha/Aquila"
+  },
+  "scripts": {
+    "start": "node ./daemon/index.js",
+    "test": "jest"
+  },
+  "author": {
+    "email": "admin@alcha.org",
+    "name": "Alcha",
+    "url": "https://hasslefree.solutions"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mongoose": "^5.4.22",
+    "puppeteer": "^1.14.0"
+  },
+  "devDependencies": {
+    "jest": "24.7.1",
+    "standard": "12.0.1"
+  },
+  "license": "MIT",
+  "readme": "README.md",
+  "standard": {
+    "ignore": [
+      "*.test.js"
+    ]
+  }
+}
