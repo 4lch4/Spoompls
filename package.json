@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "mongoose": "^5.4.22",
+    "mongoose": "^6.1.9",
     "puppeteer": "^1.14.0"
   },
   "devDependencies": {
